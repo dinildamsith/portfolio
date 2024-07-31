@@ -8,6 +8,8 @@ export default {
     extend: {
       fontFamily: {
         sans: ['Work Sans', 'sans-serif'],
+        kanit: ['Kanit', 'sans-serif'],
+        workSans: ['Work Sans', 'sans-serif'],
       },
     },
   },

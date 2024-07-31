@@ -11,7 +11,7 @@ function Nav() {
 
     return (
         <>
-            <nav className="px-5 w-full h-[60px] bg-[#292e37] shadow-md flex justify-between items-center fixed z-[99999999999999999999] overflow-x-hidden">
+            <nav className="px-5 w-full h-[60px] bg-[#292e37] shadow-md flex justify-between items-center  z-[99999999999999999999] overflow-x-hidden">
                 {/* Logo */}
                 <div className="logo flex items-center max-[767px]:absolute max-[767px]:right-[2rem]">
                     {/*<img src={images.Logo} alt="logo" className="h-8 w-auto mr-2" />*/}
