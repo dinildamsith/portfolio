@@ -1,5 +1,6 @@
 html{
     background-color:#0e151a;
+    overflow-x: hidden;
 }
 /*#root {*/
 /*  max-width: 1280px;*/
