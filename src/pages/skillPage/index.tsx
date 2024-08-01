@@ -1,4 +1,3 @@
-import './skill.scss'
 export default function SkillPage(){
     return(
         <>
