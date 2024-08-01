@@ -10,6 +10,8 @@ export default {
         sans: ['Work Sans', 'sans-serif'],
         kanit: ['Kanit', 'sans-serif'],
         workSans: ['Work Sans', 'sans-serif'],
+        'black-ops': ['Black Ops One', 'sans-serif'],
+        'work-sans': ['Work Sans', 'sans-serif'],
       },
     },
   },

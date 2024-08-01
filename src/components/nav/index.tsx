@@ -1,5 +1,5 @@
 // import images from '../../assets/constants/image.js';
-import { useState } from 'react';
+import {useEffect, useState} from 'react';
 
 
 function Nav() {
@@ -9,7 +9,25 @@ function Nav() {
         setIsMenuOpen(!isMenuOpen);
     };
 
-    return (
+
+
+        const [displayText, setDisplayText] = useState('');
+        const fullText = "<Dinil Damsith/>";
+
+        useEffect(() => {
+            let index = 0;
+            const interval = setInterval(() => {
+                setDisplayText(fullText.slice(0, index + 1));
+                index += 1;
+                if (index === fullText.length) {
+                    clearInterval(interval);
+                }
+            }, 260); // Adjust speed here
+            return () => clearInterval(interval);
+        }, [fullText]);
+
+
+        return (
         <>
             <nav className="px-5 w-full h-[60px] bg-[#292e37] shadow-md flex justify-between items-center  z-[99999999999999999999] overflow-x-hidden">
                 {/* Logo */}
@@ -18,8 +36,8 @@ function Nav() {
                     {/*<h1 className="text-lg font-bold text-white" style={{ background: 'linear-gradient(to right, #b927fc 0%, #2c64fc 100%)', WebkitBackgroundClip: 'text', backgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>*/}
                     {/*    {"<Dinil Damsith/>"}*/}
                     {/*</h1>*/}
-                    <h1 className="text-lg font-bold text-[#13f7d7]"  >
-                        {"<Dinil Damsith/>"}
+                    <h1 className="text-lg font-bold text-[#13f7d7]">
+                        {displayText}
                     </h1>
 
                 </div>
