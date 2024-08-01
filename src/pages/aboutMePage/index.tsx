@@ -1,4 +1,5 @@
 import './abou.css'
+import SkillPage from "../skillPage";
 // import {FaBook, FaGraduationCap} from "react-icons/fa";
 export default function AboutMePage(){
     return(
@@ -182,80 +183,6 @@ export default function AboutMePage(){
                                                         </div>
                                                     </div>
 
-
-
-                                                    {/*<div id="time_line_5cf90ca818fe44"*/}
-                                                    {/*     className="time_line-item  item_show">*/}
-                                                    {/*    <div className="time_line-date_wrap">*/}
-                                                    {/*        <div className="seofy_hexagon">*/}
-                                                    {/*            <svg style={{*/}
-                                                    {/*                fill: '#12affe'*/}
-                                                    {/*            }}*/}
-
-                                                    {/*                 xmlns="http://www.w3.org/2000/svg"*/}
-                                                    {/*                 viewBox="0 0 177.4 197.4">*/}
-                                                    {/*                <path*/}
-                                                    {/*                    d="M0,58.4v79.9c0,6.5,3.5,12.6,9.2,15.8l70.5,40.2c5.6,3.2,12.4,3.2,18,0l70.5-40.2c5.7-3.2,9.2-9.3,9.2-15.8V58.4 c0-6.5-3.5-12.6-9.2-15.8L97.7,2.4c-5.6-3.2-12.4-3.2-18,0L9.2,42.5C3.5,45.8,0,51.8,0,58.4z"></path>*/}
-                                                    {/*            </svg>*/}
-                                                    {/*        </div>*/}
-                                                    {/*        <div className="seofy_hexagon">*/}
-                                                    {/*            <svg*/}
-                                                    {/*                style={{*/}
-                                                    {/*                    filter: 'drop-shadow(4px 5px 4px rgba(18,175,254,0.3))',*/}
-                                                    {/*                    fill: '#12affe'*/}
-                                                    {/*                }}*/}
-
-                                                    {/*                xmlns="http://www.w3.org/2000/svg"*/}
-                                                    {/*                viewBox="0 0 177.4 197.4">*/}
-                                                    {/*                <path*/}
-                                                    {/*                    d="M0,58.4v79.9c0,6.5,3.5,12.6,9.2,15.8l70.5,40.2c5.6,3.2,12.4,3.2,18,0l70.5-40.2c5.7-3.2,9.2-9.3,9.2-15.8V58.4 c0-6.5-3.5-12.6-9.2-15.8L97.7,2.4c-5.6-3.2-12.4-3.2-18,0L9.2,42.5C3.5,45.8,0,51.8,0,58.4z"></path>*/}
-                                                    {/*            </svg>*/}
-                                                    {/*        </div>*/}
-                                                    {/*        <h4 className="time_line-date">2018</h4></div>*/}
-                                                    {/*    <div className="time_line-content"><h5*/}
-                                                    {/*        className="time_line-title">An Award-Winning Creation</h5>*/}
-                                                    {/*        <div className="time_line-descr">Continued growth in cool new*/}
-                                                    {/*            clients means that our team continues.*/}
-                                                    {/*        </div>*/}
-                                                    {/*    </div>*/}
-                                                    {/*</div>*/}
-
-
-                                                    {/*<div id="time_line_5cf90ca818ffe5"*/}
-                                                    {/*     className="time_line-item  item_show">*/}
-                                                    {/*    <div className="time_line-date_wrap">*/}
-                                                    {/*        <div className="seofy_hexagon">*/}
-                                                    {/*            <svg style={{*/}
-                                                    {/*                fill: '#3224e9'*/}
-                                                    {/*            }}*/}
-
-                                                    {/*                 xmlns="http://www.w3.org/2000/svg"*/}
-                                                    {/*                 viewBox="0 0 177.4 197.4">*/}
-                                                    {/*                <path*/}
-                                                    {/*                    d="M0,58.4v79.9c0,6.5,3.5,12.6,9.2,15.8l70.5,40.2c5.6,3.2,12.4,3.2,18,0l70.5-40.2c5.7-3.2,9.2-9.3,9.2-15.8V58.4 c0-6.5-3.5-12.6-9.2-15.8L97.7,2.4c-5.6-3.2-12.4-3.2-18,0L9.2,42.5C3.5,45.8,0,51.8,0,58.4z"></path>*/}
-                                                    {/*            </svg>*/}
-                                                    {/*        </div>*/}
-                                                    {/*        <div className="seofy_hexagon">*/}
-                                                    {/*            <svg*/}
-                                                    {/*                style={{*/}
-                                                    {/*                    filter: 'drop-shadow(4px 5px 4px rgba(50,36,233,0.3))',*/}
-                                                    {/*                    fill: '#3224e9'*/}
-                                                    {/*                }}*/}
-
-                                                    {/*                xmlns="http://www.w3.org/2000/svg"*/}
-                                                    {/*                viewBox="0 0 177.4 197.4">*/}
-                                                    {/*                <path*/}
-                                                    {/*                    d="M0,58.4v79.9c0,6.5,3.5,12.6,9.2,15.8l70.5,40.2c5.6,3.2,12.4,3.2,18,0l70.5-40.2c5.7-3.2,9.2-9.3,9.2-15.8V58.4 c0-6.5-3.5-12.6-9.2-15.8L97.7,2.4c-5.6-3.2-12.4-3.2-18,0L9.2,42.5C3.5,45.8,0,51.8,0,58.4z"></path>*/}
-                                                    {/*            </svg>*/}
-                                                    {/*        </div>*/}
-                                                    {/*        <h4 className="time_line-date">2019</h4></div>*/}
-                                                    {/*    <div className="time_line-content"><h5*/}
-                                                    {/*        className="time_line-title">Expansion &amp; Awards</h5>*/}
-                                                    {/*        <div className="time_line-descr">The team grows to nearly 40,*/}
-                                                    {/*            working with some incredible clients.*/}
-                                                    {/*        </div>*/}
-                                                    {/*    </div>*/}
-                                                    {/*</div>*/}
                                                 </div>
 
                                             </div>
@@ -271,7 +198,7 @@ export default function AboutMePage(){
 
 
             </div>
-
+        <SkillPage/>
         </>
     )
 }
