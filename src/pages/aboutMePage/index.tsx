@@ -4,9 +4,10 @@ import SkillPage from "../skillPage";
 export default function AboutMePage(){
     return(
         <>
-            <div className="w-full">
 
-                <h1 className="mt-52 text-white font-black-ops opacity-15 text-3xl tracking-[0.29rem] text-[50px] text-center max-[510px]:text-[30px] max-[248px]:text-[25px]">ABOUT ME</h1>
+            <div className="w-full  h-1 -mt-[0rem]" id="aboutMe"></div>{/*----- Scroller  Helper-----*/}
+            <div className="w-full">
+                <h1 className="mt-20 text-white font-black-ops opacity-15 text-3xl tracking-[0.29rem] text-[50px] text-center max-[510px]:text-[30px] max-[248px]:text-[25px]">ABOUT ME</h1>
 
                 <div className="flex justify-center items-center mt-12">
                     <img src="src/assets/imges/2.png" className="h-[200px] outline outline-2 outline-[#13f7d7] rounded-[200px]" alt="My Picture" />

@@ -29,7 +29,7 @@ function Nav() {
 
         return (
         <>
-            <nav className="px-5 w-full h-[60px] bg-[#292e37] shadow-md flex justify-between items-center  z-[99999999999999999999] overflow-x-hidden">
+            <nav className="px-5 w-full h-[60px] bg-[#292e37] top-0 shadow-md flex justify-between items-center  z-[99999999999999999999] overflow-x-hidden fixed" >
                 {/* Logo */}
                 <div className="logo flex items-center max-[767px]:absolute max-[767px]:right-[2rem]">
                     {/*<img src={images.Logo} alt="logo" className="h-8 w-auto mr-2" />*/}
@@ -44,11 +44,11 @@ function Nav() {
 
                 {/* Desktop Menu */}
                 <ul className="hidden md:flex items-center">
-                    <li className="ml-6"><a href="/home" className="text-[#13f7d7] text-sm font-bold py-1 px-2 text-[18px]">Home</a></li>
-                    <li className="ml-6"><a href="/itemSerch" className="text-[#13f7d7] text-sm font-bold font-sans py-1 px-2  text-[18px] ">About Me</a></li>
-                    <li className="ml-6"><a href="/itemSerch" className="text-[#13f7d7] text-sm font-bold py-1 px-2  text-[18px] ">Skills</a></li>
-                    <li className="ml-6"><a href="/itemSerch" className="text-[#13f7d7] text-sm font-bold py-1 px-2  text-[18px] ">Projects</a></li>
-                    <li className="ml-6"><a href="/contactUs" className="text-[#13f7d7] text-sm font-bold py-1 px-2  text-[18px]">Contact Us</a></li>
+                    <li className="ml-6"><a href="#homeSection" className="text-[#13f7d7] text-sm font-bold py-1 px-2 text-[18px]">Home</a></li>
+                    <li className="ml-6"><a href="#aboutMe" className="text-[#13f7d7] text-sm font-bold font-sans py-1 px-2  text-[18px] ">About Me</a></li>
+                    <li className="ml-6"><a href="#skillSection" className="text-[#13f7d7] text-sm font-bold py-1 px-2  text-[18px] ">Skills</a></li>
+                    <li className="ml-6"><a href="#projectSection" className="text-[#13f7d7] text-sm font-bold py-1 px-2  text-[18px] ">Projects</a></li>
+                    <li className="ml-6"><a href="#contactUsSection" className="text-[#13f7d7] text-sm font-bold py-1 px-2  text-[18px]">Contact Us</a></li>
                 </ul>
 
                 {/* Hamburger Menu */}
@@ -63,11 +63,11 @@ function Nav() {
             {isMenuOpen && (
                 <div className="mobile-menu bg-transparent w-[40%] h-full md:h-auto md:w-auto p-4 absolute top-[3.7rem]  left-0 md:static min-[767px]:hidden z-[999999999999]">
                     <ul className="flex flex-col items-start space-y-4 ">
-                        <a href="/home"><li className="text-[#13f7d7] text-sm font-bold py-1 px-2 text-[18px]">Home</li></a>
-                        <a href="/itemSerch"><li className="text-[#13f7d7] text-sm font-bold py-1 px-2  text-[18px]">About Me</li></a>
-                        <a href="/itemSerch"><li className="text-[#13f7d7] text-sm font-bold py-1 px-2  text-[18px]">Skills</li></a>
-                        <a href="/itemSerch"><li className="text-[#13f7d7] text-sm font-bold py-1 px-2  text-[18px]">Projects</li></a>
-                        <a href="/contactUs"><li className="text-[#13f7d7] text-sm font-bold py-1 px-2  text-[18px]">Contact Us</li></a>
+                        <a href="#homeSection"><li className="text-[#13f7d7] text-sm font-bold py-1 px-2 text-[18px]">Home</li></a>
+                        <a href="#aboutMe"><li className="text-[#13f7d7] text-sm font-bold py-1 px-2  text-[18px]">About Me</li></a>
+                        <a href="#skillSection"><li className="text-[#13f7d7] text-sm font-bold py-1 px-2  text-[18px]">Skills</li></a>
+                        <a href="#projectSection"><li className="text-[#13f7d7] text-sm font-bold py-1 px-2  text-[18px]">Projects</li></a>
+                        <a href="#contactUsSection"><li className="text-[#13f7d7] text-sm font-bold py-1 px-2  text-[18px]">Contact Us</li></a>
                     </ul>
                 </div>
             )}

@@ -4,8 +4,9 @@ import TechnicalSkillIcon from "../../components/icon";
 export default function SkillPage(){
     return(
         <>
-            <div>
-                <h1 className="mt-52 text-white font-black-ops opacity-15 text-3xl tracking-[0.29rem] text-[50px] text-center max-[510px]:text-[30px] max-[248px]:text-[25px]">TECHNICAL SKILLS</h1>
+            <div className="w-full  h-1 -mt-[0rem]" id="skillSection"></div> {/*----- Scroller  Helper-----*/}
+            <div >
+                <h1 className="mt-20 text-white font-black-ops opacity-15 text-3xl tracking-[0.29rem] text-[50px] text-center max-[510px]:text-[30px] max-[248px]:text-[25px]">TECHNICAL SKILLS</h1>
 
                 <div>
 
