@@ -8,7 +8,7 @@ function App() {
     <>
         <BrowserRouter>
             <Routes>
-                <Route path="/portfolioReact/1" element={<MainPage/>} />
+                <Route path="/" element={<MainPage/>} />
             </Routes>
         </BrowserRouter>
     </>
