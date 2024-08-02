@@ -1,6 +1,6 @@
 import './abou.css'
 import SkillPage from "../skillPage";
-// import {FaBook, FaGraduationCap} from "react-icons/fa";
+
 export default function AboutMePage(){
     return(
         <>
@@ -13,12 +13,13 @@ export default function AboutMePage(){
                     <img src="src/assets/imges/2.png" className="h-[200px] outline outline-2 outline-[#13f7d7] rounded-[200px]" alt="My Picture" />
                 </div>
 
-                <h1 className="text-white text-[35px] text-center mt-8 mb-4 px-4  font-medium font-kanit  max-[654px]:text-[25px] max-[588px]:text-[23px] max-[543px]:text-[20px] max-[305px]:text-[16px] max-[245px]:text-[13px]">
-                    Hi, I'm Dinil Damsith, a passionate full-stack developer with a strong focus on front-end
-                    development. My expertise spans across various technologies, but my main role lies in crafting
-                    seamless and engaging user interfaces. I thrive on creating innovative solutions and continuously
-                    learning to stay ahead in the tech world <br/>{"<🌍/>"}.
-                </h1>
+
+                    <h1 className="text-white text-[35px] text-center mt-8 mb-4 px-4  font-medium font-kanit  max-[654px]:text-[25px] max-[588px]:text-[20px] max-[543px]:text-[16px] max-[305px]:text-[15px] max-[245px]:text-[15px]">
+                        Hi, I'm Dinil Damsith, a passionate full-stack developer with a strong focus on front-end
+                        development. My expertise spans across various technologies, but my main role lies in crafting
+                        seamless and engaging user interfaces. I thrive on creating innovative solutions and continuously
+                        learning to stay ahead in the tech world <br/>{"<🌍/>"}.
+                    </h1>
 
 
                 <div className="flex justify-center items-center ">

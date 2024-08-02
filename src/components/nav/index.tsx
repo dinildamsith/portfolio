@@ -61,7 +61,7 @@ function Nav() {
 
             {/* Mobile Menu */}
             {isMenuOpen && (
-                <div className="mobile-menu bg-transparent w-[40%] h-full md:h-auto md:w-auto p-4 absolute top-[3.7rem]  left-0 md:static min-[767px]:hidden z-[999999999999]">
+                <div className="mobile-menu bg-[#292e37] w-[40%] h-full md:h-auto md:w-auto p-4  top-[3.7rem]  left-0 md:static min-[767px]:hidden z-[999999] fixed">
                     <ul className="flex flex-col items-start space-y-4 ">
                         <a href="#homeSection"><li className="text-[#13f7d7] text-sm font-bold py-1 px-2 text-[18px]">Home</li></a>
                         <a href="#aboutMe"><li className="text-[#13f7d7] text-sm font-bold py-1 px-2  text-[18px]">About Me</li></a>

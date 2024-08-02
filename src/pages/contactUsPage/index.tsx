@@ -35,7 +35,7 @@ export default function ContactUsPage(){
 
                     </div>
                 </div>
-                <p className="text-gray-500 text-sm text-center mt-4 max-[510px]:text-[13px] max-[368px]:text-[10px]">
+                <p className="text-gray-500 text-[14px] text-center mt-4 max-[510px]:text-[8px] max-[368px]:text-[9px]">
                     Copyright © 2024 Dinil Damsith. All rights reserved.
                 </p>
             </div>
