@@ -6,17 +6,17 @@ export default function AboutMePage(){
         <>
             <div className="w-full">
 
-                <h1 className="mt-52 text-white font-black-ops opacity-15 text-3xl tracking-[0.29rem] text-[50px] text-center">ABOUT ME</h1>
+                <h1 className="mt-52 text-white font-black-ops opacity-15 text-3xl tracking-[0.29rem] text-[50px] text-center max-[510px]:text-[30px] max-[248px]:text-[25px]">ABOUT ME</h1>
 
                 <div className="flex justify-center items-center mt-12">
                     <img src="src/assets/imges/2.png" className="h-[200px] outline outline-2 outline-[#13f7d7] rounded-[200px]" alt="My Picture" />
                 </div>
 
-                <h1 className="text-white text-[28px] text-center mt-8 mb-4 px-4 font-medium font-kanit text-center">
+                <h1 className="text-white text-[35px] text-center mt-8 mb-4 px-4  font-medium font-kanit  max-[654px]:text-[25px] max-[588px]:text-[23px] max-[543px]:text-[20px] max-[305px]:text-[16px] max-[245px]:text-[13px]">
                     Hi, I'm Dinil Damsith, a passionate full-stack developer with a strong focus on front-end
                     development. My expertise spans across various technologies, but my main role lies in crafting
                     seamless and engaging user interfaces. I thrive on creating innovative solutions and continuously
-                    learning to stay ahead in the tech world {"<🌍/>"}.
+                    learning to stay ahead in the tech world <br/>{"<🌍/>"}.
                 </h1>
 
 
@@ -35,7 +35,7 @@ export default function AboutMePage(){
                                      }}
                                 >
                                     <div
-                                        className="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-offset-3 vc_col-lg-6 vc_col-md-offset-2 vc_col-md-8">
+                                        className="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-offset-3 vc_col-lg-6 vc_col-md-offset-2 vc_col-md-8 ">
                                         <div className="vc_column-inner ">
                                             <div className="wpb_wrapper">
                                                 <div id="seofy_spacer_5cf90ca8186e1"
@@ -79,7 +79,7 @@ export default function AboutMePage(){
                                                          style={{ height: '30px' }}
                                                     ></div>
                                                 </div>
-                                                <div className="seofy_module_time_line_vertical appear_anim">
+                                                <div className="seofy_module_time_line_vertical appear_anim max-[522px]:text-[13px]">
                                                     <div id="time_line_5cf90ca818f641"
                                                          className="time_line-item  item_show">
                                                         <div className="time_line-date_wrap">
@@ -106,7 +106,7 @@ export default function AboutMePage(){
                                                                 </svg>
                                                             </div>
                                                             <h4 className="time_line-date">2011</h4></div>
-                                                        <div className="time_line-content"> <h5 className="time_line-title flex items-center text-white">
+                                                        <div className="time_line-content"> <h5 className="time_line-title flex items-center text-white rr">
                                                             {/*<FaBook className="mr-2 text-lg" /> /!* Adjust the size and margin as needed *!/*/}
                                                             Primary Level
                                                         </h5>

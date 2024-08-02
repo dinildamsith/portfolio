@@ -1,14 +1,12 @@
 import {ProjectCard} from "../../components/projectCard";
+import ContactUsPage from "../contactUsPage";
 
 
 export function ProjectPage() {
     return (
         <>
-            <div>
-
-                <h1 className="mt-52 text-white font-black-ops opacity-15 text-3xl tracking-[0.29rem] text-[50px] text-center">PROJECTS</h1>
-
-
+            <div className="overflow-x-hidden">
+                <h1 className="mt-52 text-white font-black-ops opacity-15 text-3xl tracking-[0.29rem] text-[50px] text-center max-[510px]:text-[30px] max-[248px]:text-[25px]">PROJECTS</h1>
                 <div className="flex justify-center mt-10">
                     <div className="p-4 flex flex-wrap gap-4 justify-center">
                         <ProjectCard img='src/assets/imges/meat.jpg' name='Hen House System' desc={''} repoUrl='https://github.com/dinildamsith/HenHouse_Layerd_Architecture'/>
@@ -23,6 +21,7 @@ export function ProjectPage() {
                 </div>
 
             </div>
+            <ContactUsPage/>
         </>
     );
 }
