@@ -1,3 +1,5 @@
+import {ProjectPage} from "../projectPage";
+
 export default function SkillPage(){
     return(
         <>
@@ -121,6 +123,7 @@ export default function SkillPage(){
                 </div>
 
             </div>
+            <ProjectPage/>
         </>
     )
 }
