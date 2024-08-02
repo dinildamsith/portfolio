@@ -7,7 +7,6 @@ export default function SkillPage(){
                 <h1 className="mt-52 text-white font-black-ops opacity-15 text-3xl tracking-[0.29rem] text-[50px] text-center">TECHNICAL SKILLS</h1>
 
                 <div>
-
                     <div className="flex justify-center">
                         <div className="p-4 flex flex-wrap gap-4 justify-center">
                             <h1 className="text-center text-[#13f7d7] w-full mt-12 ">Languages</h1>

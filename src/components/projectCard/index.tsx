@@ -1,28 +1,31 @@
-export function ProjectCard() {
+
+export function ProjectCard(props:any) {
     return (
         <>
 
             <div
-                className="w-80 bg-white/30 border border-gray-200 rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700 ml-6 backdrop-blur-lg"
-                style={{ boxShadow: '0 4px 6px rgba(19, 247, 215, 0.5)' }}
+                className="w-80 bg-white/30 border border-gray-200 rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700  backdrop-blur-lg"
+                style={{
+                    boxShadow: `rgba(25, 87, 79, 0.25) 0px 14px 55px,rgba(20, 100, 88, 0.12) 0px -12px 30px, rgba(28, 105, 94, 0.12) 0px 4px 6px,rgba(13, 54, 48, 0.17) 0px 12px 13px,rgba(19, 247, 215, 0.09) 0px -3px 5px`
+                }}
             >
                 <a href="#">
-                    <img className="rounded-t-lg w-80" src="src/assets/imges/test.jpeg" alt="" />
+                    <img className="rounded-t-lg w-80" src={props.img} alt="" />
                 </a>
                 <div className="p-5">
                     <a href="#">
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                            Noteworthy technology acquisitions 2021
+                            {props.name}
                         </h5>
                     </a>
                     <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                        Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
+                        {props.desc}
                     </p>
                     <a
-                        href="#"
+                        href={props.repoUrl}
                         className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                     >
-                        Read more
+                        Github
                         <svg
                             className="w-5 h-5 ml-2"
                             aria-hidden="true"
