@@ -4,7 +4,7 @@ export function ProjectCard(props:any) {
         <>
 
             <div
-                className="w-80 bg-white/30 border border-gray-200 rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700  backdrop-blur-lg"
+                className="w-80 bg-[#292e37] border border-gray-200 rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700  backdrop-blur-lg mt-4"
                 style={{
                     boxShadow: `rgba(25, 87, 79, 0.25) 0px 14px 55px,rgba(20, 100, 88, 0.12) 0px -12px 30px, rgba(28, 105, 94, 0.12) 0px 4px 6px,rgba(13, 54, 48, 0.17) 0px 12px 13px,rgba(19, 247, 215, 0.09) 0px -3px 5px`
                 }}
