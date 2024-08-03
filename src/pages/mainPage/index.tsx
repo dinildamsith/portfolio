@@ -9,7 +9,7 @@ export default function MainPage(){
             <div className="w-full  h-1 -mt-[0rem]" id="homeSection"></div>{/*----- Scroller  Helper-----*/}
             <div  className="h-full w-full">
                   <div className="flex justify-center items-center mt-24" >
-                    <img src="src/assets/imges/myPic.png" className="h-[250px] rounded-[150px]" alt="My Picture"/>
+                    <img src="assets/imges/myPic.png" className="h-[250px] rounded-[150px]" alt="My Picture"/>
                   </div>
 
 
