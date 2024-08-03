@@ -11,13 +11,13 @@ export default function ContactUsPage(){
 
                         <div className="flex flex-col items-center">
                             <a href="tel:+94714430305" className="flex flex-col items-center">
-                                <img src="src/assets/imges/call.png" className="w-12 h-12" alt="Call icon" />
+                                <img src="assets/imges/call.png" className="w-12 h-12" alt="Call icon" />
                                 <h1 className="text-white mb-2">+94 714430305</h1>
                             </a>
                         </div>
                         <div className="flex flex-col items-center">
                             <a href="mailto:dinildamsith52@gmail.com" className="flex flex-col items-center">
-                                <img src="src/assets/imges/mail.png" className="w-12 h-12" alt="Email icon" />
+                                <img src="assets/imges/mail.png" className="w-12 h-12" alt="Email icon" />
                                 <h1 className="text-white mb-2">dinildamsith52@gmail.com</h1>
                             </a>
                         </div>
@@ -28,7 +28,7 @@ export default function ContactUsPage(){
                                 rel="noopener noreferrer"
                                 className="flex flex-col items-center"
                             >
-                                <img src="src/assets/imges/location.png" className="w-12 h-12" alt="Location icon" />
+                                <img src="assets/imges/location.png" className="w-12 h-12" alt="Location icon" />
                                 <h1 className="text-white mb-2">Avissawella</h1>
                             </a>
                         </div>
