@@ -14,7 +14,7 @@ export default function MainPage(){
 
 
                  <div className="mt-10 text-center">
-                     <h1 className="text-white text-[35px] text-center mt-8 mb-4 px-4  font-medium font-kanit  max-[654px]:text-[25px] max-[588px]:text-[23px] max-[543px]:text-[20px] max-[305px]:text-[16px] max-[245px]:text-[13px]">
+                     <h1 className="ml-20 mr-20 text-white text-[35px] text-center mt-8 mb-4 px-4  font-medium font-kanit  max-[654px]:text-[25px] max-[588px]:text-[23px] max-[543px]:text-[20px] max-[305px]:text-[16px] max-[245px]:text-[13px] max-[619px]:ml-0 max-[619px]:mr-0">
                         Hello! I’m Dinil, a passionate Full Stack Developer. Dive into my portfolio and explore the world of innovative solutions and creative code <br/>{ " <🌍/>."}
                     </h1>
                 </div>

@@ -9,12 +9,12 @@ export default function AboutMePage(){
             <div className="w-full">
                 <h1 className="mt-20 text-white font-black-ops opacity-15 text-3xl tracking-[0.29rem] text-[50px] text-center max-[510px]:text-[30px] max-[248px]:text-[25px]">ABOUT ME</h1>
 
-                <div className="flex justify-center items-center mt-12">
-                    <img src="assets/imges/2.png" className="h-[200px] outline outline-2 outline-[#13f7d7] rounded-[200px]" alt="My Picture" />
+                <div className="absolute mt-10 right-20 max-[848px]:static max-[848px]:flex max-[848px]:justify-center max-[848px]:items-center max-[848px]:mt-12">
+                    <img src="assets/imges/my.png" className="h-[350px] max-[990px]:h-[300px] max-[420px]:h-[250px] " alt="My Picture" />
                 </div>
 
 
-                    <h1 className="text-white text-[35px] text-center mt-8 mb-4 px-4  font-medium font-kanit  max-[654px]:text-[25px] max-[588px]:text-[20px] max-[543px]:text-[16px] max-[305px]:text-[15px] max-[245px]:text-[15px]">
+                    <h1 className="ml-20 mr-[27rem] text-white text-[25px] text-center mt-24 mb-20 px-4  font-medium font-kanit  max-[1182px]:text-[22px] max-[990px]:text-[18px] max-[990px]:mr-[23rem] max-[990px]:ml-[2rem] max-[886px]:mt-20 max-[848px]:ml-0 max-[848px]:mr-0 max-[848px]:mt-7">
                         Hi, I'm Dinil Damsith, a passionate full-stack developer with a strong focus on front-end
                         development. My expertise spans across various technologies, but my main role lies in crafting
                         seamless and engaging user interfaces. I thrive on creating innovative solutions and continuously
