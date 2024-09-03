@@ -5,9 +5,14 @@ import AboutMePage from "../aboutMePage";
 export default function MainPage(){
     return(
         <>
+            <div className="fixed bg-black  h-full w-full  opacity-[0.90] z-[-99999999999999999999]">
+
+            </div>
+
             <Nav/>
             <div className="w-full  h-1 -mt-[0rem]" id="homeSection"></div>{/*----- Scroller  Helper-----*/}
             <div  className="h-full w-full">
+
                   <div className="flex justify-center items-center mt-24" >
                     <img src="assets/imges/myPic.png" className="h-[250px] rounded-[150px]" alt="My Picture"/>
                   </div>
@@ -15,7 +20,7 @@ export default function MainPage(){
 
                  <div className="mt-10 text-center">
                      <h1 className="ml-20 mr-20 text-white text-[35px] text-center mt-8 mb-4 px-4  font-medium font-kanit  max-[654px]:text-[25px] max-[588px]:text-[23px] max-[543px]:text-[20px] max-[305px]:text-[16px] max-[245px]:text-[13px] max-[619px]:ml-0 max-[619px]:mr-0">
-                        Hello! I’m Dinil, a passionate Full Stack Developer. Dive into my portfolio and explore the world of innovative solutions and creative code <br/>{ " <🌍/>."}
+                         Hello! I’m Dinil, a Software Engineer. Dive into my portfolio and explore a world of innovative solutions and creative code. <br/>{ " <🌍/>."}
                     </h1>
                 </div>
 

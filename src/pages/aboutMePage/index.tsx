@@ -15,10 +15,7 @@ export default function AboutMePage(){
 
 
                     <h1 className="ml-20 mr-[27rem] text-white text-[25px] text-center mt-24 mb-20 px-4  font-medium font-kanit  max-[1182px]:text-[22px] max-[990px]:text-[18px] max-[990px]:mr-[23rem] max-[990px]:ml-[2rem] max-[886px]:mt-20 max-[848px]:ml-0 max-[848px]:mr-0 max-[848px]:mt-7">
-                        Hi, I'm Dinil Damsith, a passionate full-stack developer with a strong focus on front-end
-                        development. My expertise spans across various technologies, but my main role lies in crafting
-                        seamless and engaging user interfaces. I thrive on creating innovative solutions and continuously
-                        learning to stay ahead in the tech world <br/>{"<🌍/>"}.
+                        Hi, I'm Dinil Damsith, a Software Engineer specializing in backend development. My expertise encompasses a range of technologies, with a primary focus on designing, building, and optimizing backend systems. I excel in creating efficient, scalable solutions and am committed to continuous learning to remain at the cutting edge of the tech industry. <br/>{"<🌍/>"}.
                     </h1>
 
 
