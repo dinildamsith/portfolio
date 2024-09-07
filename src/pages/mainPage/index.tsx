@@ -5,9 +5,9 @@ import AboutMePage from "../aboutMePage";
 export default function MainPage(){
     return(
         <>
-            <div className="fixed bg-black  h-full w-full  opacity-[0.90] z-[-99999999999999999999]">
+            <img src='assets/imges/bg2.gif' alt="" className='fixed h-full w-full -z-[100]'/>
 
-            </div>
+            <div className="fixed bg-black  h-full w-full  opacity-[0.90] -z-[9]"></div>
 
             <Nav/>
             <div className="w-full  h-1 -mt-[0rem]" id="homeSection"></div>{/*----- Scroller  Helper-----*/}
